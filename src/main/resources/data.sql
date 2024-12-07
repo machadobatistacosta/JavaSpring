@@ -1,0 +1,1 @@
+INSERT INTO Run(id, title) VALUES(1, 'First title');

@@ -29,7 +29,7 @@ public class RunController {
         this.runRepository = runRepository;
     }
 
-    @GetMapping("")
+  @GetMapping("")
     List<Run> findAll() {
         return runRepository.findAll();
     }
@@ -60,6 +60,5 @@ public class RunController {
     void delete(@PathVariable Integer id){
         runRepository.delete(id);
     }
-
 
 }

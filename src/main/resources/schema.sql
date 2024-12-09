@@ -1,5 +1,3 @@
-CREATE TABLE IF NOT EXISTS Run (
-   id INT NOT NULL,
-   title varchar(250) NOT NULL,
-   PRIMARY KEY (id)
-);
+CREATE TABLE run(id INT PRIMARY KEY,
+   title VARCHAR(255),
+   version INT);
